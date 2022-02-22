@@ -1,9 +1,9 @@
 FROM node:17
 
-WORKDIR /app
+WORKDIR /sample-react-app
 
-ADD $WORKSPACE /app
-
-EXPOSE 3000
+ADD $WORKSPACE /sample-react-app
 
 CMD npm start
+
+EXPOSE 3000
